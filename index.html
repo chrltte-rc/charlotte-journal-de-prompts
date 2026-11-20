@@ -90,6 +90,8 @@ nav{position:fixed;left:0;right:0;bottom:0;z-index:5;background:var(--bg);displa
   padding:6px 12px calc(10px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--soft)}
 nav button{border:0;background:transparent;border-radius:999px;padding:12px 4px;font-weight:600;font-size:.9rem;color:var(--muted)}
 nav button[aria-current="page"]{background:var(--ink);color:var(--ink-fg)}
+nav button[data-view="saisir"]{color:#2563eb;background:rgba(37,99,235,.12)}
+nav button[data-view="saisir"][aria-current="page"]{background:#2563eb;color:#ffffff}
 
 #toast{position:fixed;left:16px;right:16px;bottom:calc(80px + env(safe-area-inset-bottom,0px));z-index:9;max-width:520px;margin:0 auto;
   background:var(--ink);color:var(--ink-fg);padding:14px 18px;border-radius:18px;font-weight:600;
